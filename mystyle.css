@@ -1,6 +1,6 @@
 .header {
   padding: 80px; /* some padding */
-  text-align: center; /* center the text */
+  text-align: left; /* center the text */
   background: #3385ff; /* blue background */
   color: white; /* white text color */
 }
