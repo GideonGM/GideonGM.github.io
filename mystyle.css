@@ -6,16 +6,43 @@
 }
 
 /* Increase the font size of the <h1> element */
+
+.header {
+  display:flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  /* flex-shrink: 0; */
+  /* white-space: nowrap */
+  /* flex-wrap: nowrap; */
+  blackground-color: #f1f1f1;
+}
+
 .header a {
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  /* align-items: stretch; */
+  height: 200px;
+  /* flex-shrink: 0; */
+  /* flex-direction: row; */
   font-size: 30px;
   color: white; /* White text color */
-  text-align: center; /* Center the text */
+  /* text-align: center;  Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
 }
 
-.header a.right {
-float: right;
+.header .right {
+  /* float: right; */
+  display: flex;
+  margin-left: auto;
+  justify-content: space-between;
+  /* font-size: 50px; */
+  /* flex: 1 0 25%; */
+}
+
+.header .right a{
+  /* justify-content: space-between; */
 }
 
 .header a:hover {
@@ -31,17 +58,21 @@ float: right;
 
 /* Style the navigation bar links */
 .navbar a {
+  /*
   float: left; /* Make sure that the links stay side-by-side */
   display: block; /* Change the display to block, for responsive reasons (see below) */
   color: white; /* White text color */
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  */
 }
 
 /* Right-aligned link */
+*/
 .navbar a.right {
   float: right; /* Float a link to the right */
+  height: inherit;
 }
 
 /* Change color on hover/mouse-over */
@@ -93,6 +124,7 @@ float: right;
   text-align: center; /* Center text*/
   background: #ddd; /* Grey background */
 }
+*/
 .fit-picture {
 	width: 1000px;
 }
