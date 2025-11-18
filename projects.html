@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="mystyle.css">
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+.image {
+        background-color: #333;
+        display: inline-block;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        text-align: left;
+        font-family: 'Courier New', Courier, monospace;
+        color: aliceblue;
+        padding-right: 5px;
+        padding-bottom: 10px;
+}
+
+img {
+        flex-shrink: 0;
+        width: 300px;
+        height: 100%;
+        object-fit: cover;
+        /* border-radius: 50%; */
+}
+
+.text {
+        font-size: 20px;
+        line-height: 1.6;
+        padding-left: 20px;
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+        <div><a href="index.html">Gideon Grandis-McConnell</a></div>
+        <div class="right">
+                <div><a href="index.html">Home</a></div>
+                <div><a href="projects.html">Projects</a></div>
+                <div><a href="education.html">Education</a></div>
+        </div>
+</div>
+<div class = "Projects">
+        <div class = "title"><h1>Projects: </h1></div>
+        <div class = "image">
+                <img src="images\Raytracer.png" alt="Raytracer screenshot" vspace = 20 hspace = 20 ">
+                <div> <h3> Simple Raytracer - 2024<br> <br> </h3> <p> A simple raytracer built in Java to explore my interest in computer graphics.
+                         Renders simple spheres under various forms of lighting. Mostly used as a way of familiarizing myself with java
+                          and getting used to coding with vim and terminal commands, as my computer science classes recomended of me
+                           at the time, <br> <br> </p> <a href="https://github.com/GideonGM/Raytracer">Github link</a>
+                </div> 
+        </div>
+        <br>
+        <div class = "image">
+                <img src="images\Physics.png" alt="Physics sim screenshot" vspace = 70 hspace = 20 ">
+                <div> <h3> Newtonian Physics Simulator - 2023<br> <br> </h3> <p> A unity project coded in C#, which consists of three interative visual
+                         simulations of Newtonian models.  <br> <br> </p> <a href="https://github.com/GideonGM/NewtonPhysicsSimulations">Github link</a>
+                </div> 
+        </div>
+</div>
+
+
+
+
+
+</body>
+</html>
